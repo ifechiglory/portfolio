@@ -2,8 +2,9 @@
     height: fit-contents;
 }
 
-.github-link{
+.github-link, .linkedin-link{
     color:#4ee29f;
+    margin: 0 0.5rem;
 }
 
 span.underline{

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Folio.css'
 import { AiOutlineGithub } from 'react-icons/ai';
+import { FaLinkedin } from 'react-icons/fa'
 
 const Header = () => {
     return (
@@ -13,6 +14,10 @@ const Header = () => {
                 <a className='github-link' href='https://github.com/ifechiglory' target='_blank'>
                     <AiOutlineGithub fontSize={40}/>
                 </a>  
+
+                <a className='linkedin-link' href='https://www.linkedin.com/in/ifechukwumax-oti/' target='_blank'>
+                    <FaLinkedin fontSize={40}s/>
+                </a>
             </div>
         </div>
     )
