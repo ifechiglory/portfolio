@@ -15,7 +15,7 @@ const Projects = () =>{
             <div className='row justify-content-evenly'>
                 <div className='col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6 card-holder px-4'>
                     <div className='card'>
-                        <a href='https://portfolio-ifechiglory.vercel.app/'><img className='card-img-top' alt='roots' src={Portfolio}></img></a>
+                        <a href='https://portfolio-ifechiglory.vercel.app/' target='_blank'><img className='card-img-top' alt='roots' src={Portfolio}></img></a>
                         <div className='card-body'>
                             <p className='card-text'>Personal Portfolio Website</p>
                             <span className='me-2'>HTML</span>
@@ -28,7 +28,7 @@ const Projects = () =>{
 
                 <div className='col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6 card-holder px-4'>
                     <div className='card'>
-                        <a href='https://lexicon-two.vercel.app'><img className='card-img-top' alt='roots' src={Lexicon}></img></a>
+                        <a href='https://lexicon-two.vercel.app' target='_blank'><img className='card-img-top' alt='roots' src={Lexicon}></img></a>
                         <div className='card-body'>
                             <p className='card-text'>Dictionary Web App</p>
                             <span className='me-2'>HTML</span>
@@ -43,7 +43,7 @@ const Projects = () =>{
                 <div className='col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6 card-holder px-4'>
                 
                     <div className='card'>
-                        <a href='https://spefind.vercel.app'>
+                        <a href='https://spefind.vercel.app' target='_blank'>
                             <img className='card-img-top' alt='roots' src={Spefind}></img>
                         </a>
                             <div className='card-body'>
@@ -57,7 +57,7 @@ const Projects = () =>{
 
                 <div className='col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6 card-holder px-4'>
                     <div className='card'>
-                        <a href='https://roots-landing-page.vercel.app'>
+                        <a href='https://roots-landing-page.vercel.app' target='_blank'>
                             <img className='card-img-top' alt='roots' src={Roots}></img>
                         </a>
                         <div className='card-body'>

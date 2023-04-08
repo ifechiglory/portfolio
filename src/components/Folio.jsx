@@ -24,7 +24,13 @@ const Folio = () => {
 
                     <p className='fs-6 mt-xl-4 mt-lg-4 mt-md-4'>Based in Nigeria, I'm a front-end developer passionate <br></br> about building asssessible web apps that users love.</p>
 
-                    <button className='btn btn-outline contact-btn my-3 my-lg-5' onClick={handleCLick()}>Contact Me</button>
+                    <a href='#contact'>
+                        <button className='btn btn-outline contact-btn my-3 my-lg-5' onClick={handleCLick()}>Contact Me</button>
+                    </a>
+
+                  <a href='../../Ifechukwu Max-Oti CV.pdf' download='Ifechukwu Max-Oti_CV'>
+                    <button className='btn btn-outine contact-btn m-lg-5 m-3'>Resume</button>
+                  </a>
                 </div>
 
                 <div className='col-12 col-xl-5 col-lg-5 col-md-6 col-sm-3'>
@@ -38,7 +44,7 @@ const Folio = () => {
             <div>
                 <Projects/>
             </div>
-            <div className='row contact' ref={ref}>
+            <div className='row contact' id='contact' ref={ref}>
                 <Contact/>
             </div>
             <Header/>
