@@ -24,7 +24,7 @@ const Folio = () => {
 
                     <p className='fs-6 mt-xl-4 mt-lg-4 mt-md-4'>Based in Nigeria, I'm a front-end developer passionate <br></br> about building asssessible web apps that users love.</p>
 
-                    <a href='#contact'>
+                    <a href='/#contact'>
                         <button className='btn btn-outline contact-btn my-3 my-lg-5' onClick={handleCLick()}>Contact Me</button>
                     </a>
 

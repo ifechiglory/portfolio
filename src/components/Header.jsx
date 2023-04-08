@@ -16,7 +16,7 @@ const Header = () => {
                 </a>  
 
                 <a className='linkedin-link' href='https://www.linkedin.com/in/ifechukwumax-oti/' target='_blank'>
-                    <FaLinkedin fontSize={40}s/>
+                    <FaLinkedin fontSize={40}/>
                 </a>
             </div>
         </div>
