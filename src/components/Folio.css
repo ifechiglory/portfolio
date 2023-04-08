@@ -1,0 +1,54 @@
+.header{
+    height: fit-contents;
+}
+
+.github-link{
+    color:#4ee29f;
+}
+
+span.underline{
+    text-decoration-color: #4ee29f !important;
+}
+
+.contact-btn{
+    border-bottom: 2px solid #4ee29f !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-btn:hover{
+    background-color: #4ee29f;
+    color: #151515 !important;
+}
+
+.card{
+    width: 17rem !important;
+    background-color: #151515;
+    color: #fff;
+}
+
+.contact{
+    background-color: #242424;
+}
+
+form input{
+    background-color: inherit !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 0% !important;
+    color: #f4f4f4 !important;
+}
+
+textarea{
+    background-color: inherit !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 0% !important;
+    color: #f4f4f4 !important;
+}
+
+input:focus, textarea:focus{
+    box-shadow: none !important;
+}
