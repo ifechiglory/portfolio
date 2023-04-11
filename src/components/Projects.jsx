@@ -13,7 +13,7 @@ const Projects = () =>{
             </div>
     
             <div className='row justify-content-evenly'>
-                <div className='col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6 card-holder rounded p-4'>
+                <div className='col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 card-holder rounded p-4'>
                     <div className='card'>
                         <a href='https://portfolio-ifechiglory.vercel.app/' target='_blank'><img className='card-img-top' alt='roots' src={Portfolio}></img></a>
                         <div className='card-body mt-2'>
@@ -26,7 +26,7 @@ const Projects = () =>{
                 </div>
 
 
-                <div className='col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6 card-holder rounded p-4'>
+                <div className='col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 card-holder rounded p-4'>
                     <div className='card'>
                         <a href='https://lexicon-two.vercel.app' target='_blank'><img className='card-img-top' alt='roots' src={Lexicon}></img></a>
                         <div className='card-body mt-2'>
@@ -40,7 +40,7 @@ const Projects = () =>{
             </div>
 
             <div className='row justify-content-evenly'>
-                <div className='col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6 card-holder rounded p-4'>
+                <div className='col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 card-holder rounded p-4'>
                 
                     <div className='card'>
                         <a href='https://spefind.vercel.app' target='_blank'>
@@ -55,7 +55,7 @@ const Projects = () =>{
                         </div>
                 </div>
 
-                <div className='col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6 card-holder rounded p-4'>
+                <div className='col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 card-holder rounded p-4'>
                     <div className='card'>
                         <a href='https://roots-landing-page.vercel.app' target='_blank'>
                             <img className='card-img-top' alt='roots' src={Roots}></img>

@@ -32,7 +32,7 @@ const Folio = () => {
                   </a>
                 </div>
 
-                <div className='col-12 col-xl-5 col-lg-5 col-md-6 col-sm-3'>
+                <div className='col-12 col-xl-5 col-lg-5 col-md-6 col-sm-3 text-center'>
                     <img className='img-fluid text-center' alt='headshot of me' src={Profile}></img>
                 </div>
             </div>
