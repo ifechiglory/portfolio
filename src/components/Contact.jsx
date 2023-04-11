@@ -16,7 +16,7 @@ const Contact = () => {
         'v_GGaBjw1GuguLxLs')
         .then((result) => {
             
-            console.log('message sent');
+            console.log(result);
         }, (error) => {
             console.log(error.text);
         });
@@ -26,8 +26,8 @@ const Contact = () => {
     return(
         <div className='row p-3 justify-content-between'>
             <div className='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-4 p-4'>
-                <h1>Contact</h1>
-                <p>You made it this far! Yaay. I'd love to hear about your project and how I could help. Please fil the form and I will get in touch as soon a possible.</p>
+                <h1 className='text-decoration-underline'>Contact</h1>
+                <p className='py-4'>You made it this far! Yaay.<br></br> I'd love to hear about your project and how I could help. <br></br>Please fill the form and I will get in touch as soon a possible.</p>
             </div>
 
             <div className='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-8 p-4'>
