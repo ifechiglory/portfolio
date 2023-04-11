@@ -7,6 +7,10 @@
     margin: 0 0.5rem;
 }
 
+.github-link:hover, .linkedin-link:hover{
+    color: #f4f4f4 !important;
+}
+
 span.underline{
     text-decoration-color: #4ee29f !important;
 }
