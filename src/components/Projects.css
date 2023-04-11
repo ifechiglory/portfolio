@@ -4,8 +4,20 @@ a{
 
 .card-holder{
     margin-bottom: 3rem;
+    overflow: hidden;
+}
+
+.card-holder img{
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
 }
 
 .card-holder:hover{
     box-shadow: 0 3px 10px rgba(247, 247, 247, 0.733);
+}
+
+.card-holder img:hover{
+    filter: brightness(100%);
+    transform: scale(1.3);
 }
