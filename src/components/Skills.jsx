@@ -85,7 +85,7 @@ const Skills = () =>{
                     <div className='card-body'>
                         <h2 className='card-title'><TbWriting color='#f4f4f4' fontSize={80}/></h2>
                         <h6 className='card-subtitle'>Technical Writing</h6>
-                        <p className='card-text'> 3+ years</p>
+                        <p className='card-text'> 1+ years</p>
                     </div>
                 </div>
             </div>
