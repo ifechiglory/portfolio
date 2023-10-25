@@ -20,7 +20,7 @@ const Projects = () =>{
                             <p className='card-text'>Personal Portfolio Website</p>
                             <span className='me-2'>HTML</span>
                             <span className='me-2'>CSS</span>
-                            <span>JS</span>
+                            <span>React</span>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,8 @@ const Projects = () =>{
                             <p className='card-text'>Dictionary Web App</p>
                             <span className='me-2'>HTML</span>
                             <span className='me-2'>CSS</span>
-                            <span>JS</span>
+                            <span className='me-2'>React</span>
+                            <span>Dictionary API</span>
                         </div>
                     </div>
                 </div>
@@ -50,7 +51,7 @@ const Projects = () =>{
                                 <p className='card-text mt-3'>Online Event Speaker Finder</p>
                                 <span className='me-2'>HTML</span>
                                 <span className='me-2'>CSS</span>
-                                <span>JS</span>
+                                <span>React</span>
                             </div>
                         </div>
                 </div>
@@ -64,7 +65,7 @@ const Projects = () =>{
                             <p className='card-text'>E-learning Language Platform</p>
                             <span className='me-2'>HTML</span>
                             <span className='me-2'>CSS</span>
-                            <span>JS</span>
+                            <span>React</span>
                         </div>
                     </div>
                 </div>

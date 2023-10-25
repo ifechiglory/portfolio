@@ -65,7 +65,7 @@ const Skills = () =>{
                     <div className='card-body'>
                         <h2 className='card-title'><AiFillGithub color='#f7f7f7' fontSize={80}/></h2>
                         <h6 className='card-subtitle'>Git</h6>
-                        <p className='card-text'> 3+ years</p>
+                        <p className='card-text'> 1+ years</p>
                     </div>
                 </div>
             </div>

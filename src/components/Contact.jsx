@@ -1,6 +1,9 @@
 import React, { useRef }from 'react'
 import './Folio.css'
 import emailjs from '@emailjs/browser';
+import { CiLocationOn, CiMail } from 'react-icons/ci'
+import { AiOutlineGithub } from 'react-icons/ai';
+import { FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
 
@@ -26,8 +29,27 @@ const Contact = () => {
     return(
         <div className='row p-3 justify-content-between'>
             <div className='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-4 p-4'>
-                <h1 className='text-decoration-underline'>Contact</h1>
-                <p className='py-4'>You made it this far! Yaay.<br></br> I'd love to hear about your project and how I could help. <br></br>Please fill the form and I will get in touch as soon a possible.</p>
+                <h1 className='text-decoration-underline'>Contact me</h1>
+                <p className='py-4'>You made it this far! Yaay.<br></br> I'd love to hear about your project and how I could help.</p>
+
+              
+                <div className='row'> 
+                    <div className='col'>
+                        <p className='m-2'> <CiLocationOn color='#4ee29f'/> Calabar - Nigeria</p>
+                        <p className='m-2'><CiMail color='#4ee29f'/> ifechiglory@gmail.com</p>
+                       <p className='links'>
+                            <a className='github-link' href='https://github.com/ifechiglory' target='_blank'>
+                                <AiOutlineGithub fontSize={20}/>
+                            </a> 
+                            <a className='linkedin-link' href='https://www.linkedin.com/in/ifechukwumax-oti/' target='_blank'>
+                            <FaLinkedin fontSize={20}/>
+                            </a>
+                        </p> 
+
+                        
+                    </div>
+                </div>
+                
             </div>
 
             <div className='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-8 p-4'>

@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa'
 
 const Header = () => {
     return (
-        <div className='row header justify-content-between p-5'>
+        <div className='row header justify-content-between p-3 shadow'>
             <div className='col-6'>
                 <p className='fw-bold'>efay</p>
             </div>

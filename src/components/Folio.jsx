@@ -17,18 +17,18 @@ const Folio = () => {
         <div className='container-fluid'>
             <Header/>
 
-            <div className='row justify-content-center'>
+            <div className='row justify-content-center pt-5'>
                 <div className='header-text col-12 col-xl-5 col-lg-5 col-md-6 col-sm-7 pt-xl-5 pt-lg-5 pt-md-5 text-center'>
-                    <h1>Hi, it's nice to meet you! <br></br>I'm <span className='text-decoration-underline underline fw-bold'>Ifechukwu Max-Oti</span>.</h1>
+                    <h1>Hi, welcome to my space! <br></br> I'm <span className='text-decoration-underline underline fw-bold'>Ifechukwu Max-Oti</span>.</h1>
 
-                    <p className='fs-6 mt-xl-5 mt-lg-5 mt-md-5'>A front-end engineer passionate <br></br> about building asssessible web apps that users love.</p>
+                    <p className='fs-6 mt-xl-5 mt-lg-5 mt-md-5'>I'm a front-end engineer passionate <br></br> about building asssessible web apps that users love. I am profecient in web development langauges such as HTML, CSS and frameworks like React.</p>
 
                     <a href='/#contact'>
                         <button className='btn btn-outline contact-btn my-3 my-lg-5' onClick={handleCLick()}>Contact Me</button>
                     </a>
 
                   <a href='../../Ifechukwu Max-Oti CV.pdf' download='Ifechukwu Max-Oti_CV'>
-                    <button className='btn btn-outine contact-btn m-lg-5 m-3'>Resume</button>
+                    <button className='btn btn-outine contact-btn m-lg-5 m-3'>View My Resume</button>
                   </a>
                 </div>
 
@@ -46,7 +46,6 @@ const Folio = () => {
             <div className='row contact' id='contact' ref={ref}>
                 <Contact/>
             </div>
-            <Header/>
         </div>
     )
 } 
