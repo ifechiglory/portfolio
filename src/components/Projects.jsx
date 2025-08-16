@@ -1,9 +1,10 @@
 import React from 'react'
 import './Projects.css'
-import Roots from '../assets/roots.png'
+import AW from '../assets/aw.png'
 import Spefind from '../assets/spefind.png'
-import Portfolio from '../assets/portfolio.png'
 import Lexicon from '../assets/lexicon.png'
+import Quizard from '../assets/quizard.png'
+import Songbird from '../assets/songbird.png'
 
 const Projects = () =>{
     return(
@@ -15,9 +16,9 @@ const Projects = () =>{
             <div className='row justify-content-evenly'>
                 <div className='col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 card-holder rounded p-4'>
                     <div className='card'>
-                        <a href='https://portfolio-ifechiglory.vercel.app/' target='_blank'><img className='card-img-top' alt='roots' src={Portfolio}></img></a>
+                        <a href='https://aromaworshippers.com/' target='_blank'><img className='card-img-top' alt='roots' src={AW}></img></a>
                         <div className='card-body mt-2'>
-                            <p className='card-text'>Personal Portfolio Website</p>
+                            <p className='card-text'>Aroma Worshippers Music Ministry Landing Page</p>
                             <span className='me-2'>HTML</span>
                             <span className='me-2'>CSS</span>
                             <span>React</span>
@@ -56,13 +57,32 @@ const Projects = () =>{
                         </div>
                 </div>
 
+               
+            </div>
+
+            <div className='row justify-content-evenly'>
+                <div className='col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 card-holder rounded p-4'>
+                
+                    <div className='card'>
+                        <a href='https://songbird-manager.vercel.app/' target='_blank'>
+                            <img className='card-img-top' alt='songbird' src={Songbird}></img>
+                        </a>
+                            <div className='card-body mt-2'>
+                                <p className='card-text mt-3'>Tool for formatting lyrics</p>
+                                <span className='me-2'>HTML</span>
+                                <span className='me-2'>CSS</span>
+                                <span>React</span>
+                            </div>
+                        </div>
+                </div>
+
                 <div className='col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 card-holder rounded p-4'>
                     <div className='card'>
-                        <a href='https://roots-landing-page.vercel.app' target='_blank'>
-                            <img className='card-img-top' alt='roots' src={Roots}></img>
+                        <a href='https://quizard-teal.vercel.app/' target='_blank'>
+                            <img className='card-img-top' alt='quizard' src={Quizard}></img>
                         </a>
                         <div className='card-body mt-2'>
-                            <p className='card-text'>E-learning Language Platform</p>
+                            <p className='card-text'>Frontend quiz Platform</p>
                             <span className='me-2'>HTML</span>
                             <span className='me-2'>CSS</span>
                             <span>React</span>

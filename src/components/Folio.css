@@ -37,22 +37,6 @@ span.underline{
     background-color: #242424;
 }
 
-form input{
-    background-color: inherit !important;
-    border: none !important;
-    outline: none !important;
-    border-radius: 0% !important;
-    color: #f4f4f4 !important;
-}
-
-textarea{
-    background-color: inherit !important;
-    border: none !important;
-    outline: none !important;
-    border-radius: 0% !important;
-    color: #f4f4f4 !important;
-}
-
-input:focus, textarea:focus{
-    box-shadow: none !important;
+a{
+    color: #fff
 }

@@ -45,7 +45,7 @@ const Skills = () =>{
                     <div className='card-body'>
                         <h2 className='card-title'><FaReact color='#61dbfb' fontSize={80}/></h2>
                         <h6 className='card-subtitle'>React</h6>
-                        <p className='card-text'> 1 year</p>
+                        <p className='card-text'> 2+ years</p>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const Skills = () =>{
                     <div className='card-body'>
                         <h2 className='card-title'><TbBrandVite color='#68a0ff' fontSize={80}/></h2>
                         <h6 className='card-subtitle'>Vite</h6>
-                        <p className='card-text'> 1 year</p>
+                        <p className='card-text'> 2+ years</p>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ const Skills = () =>{
                     <div className='card-body'>
                         <h2 className='card-title'><AiFillGithub color='#f7f7f7' fontSize={80}/></h2>
                         <h6 className='card-subtitle'>Git</h6>
-                        <p className='card-text'> 1+ years</p>
+                        <p className='card-text'> 2+ years</p>
                     </div>
                 </div>
             </div>
