@@ -8,7 +8,7 @@ const Header = () => {
       <header className="row header justify-content-between p-3 shadow-lg sticky-top">
         <section className="col-6">
           <p className="fw-bold fs-3 github-link">
-            <a href='#hero'>&lt;/&gt;</a>
+            <a href='#hero' className='hero'>&lt;/&gt;</a>
           </p>
         </section>
 

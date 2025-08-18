@@ -41,11 +41,11 @@ span.underline{
 a{
     color: #fff
 }
-.header a{
-    color: #4ee29f;
+.header .hero{
+    color: #fff;
     text-decoration: none;
 }
 
-.header a:hover{
-    color: #fff;
+.header .hero:hover{
+    color: #4ee29f;
 }
