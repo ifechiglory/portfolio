@@ -25,11 +25,8 @@ const Contact = () => {
                             <a className='linkedin-link' href='https://www.linkedin.com/in/ifechukwumax-oti/' target='_blank'>
                             <FaLinkedin fontSize={20}/>
                             </a>
-                        </p> 
-
-                        
+                        </p>                         
                 </section>
-                
             </section>
         </>
     )

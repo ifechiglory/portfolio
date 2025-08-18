@@ -16,7 +16,9 @@ const Projects = () =>{
             <div className='row justify-content-evenly'>
                 <div className='col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 card-holder rounded p-4'>
                     <div className='card'>
-                        <a href='https://aromaworshippers.com/' target='_blank'><img className='card-img-top' alt='roots' src={AW}></img></a>
+                        <a href='https://aromaworshippers.com/' target='_blank'>
+                            <img className='card-img-top' alt='AW' src={AW}></img>
+                        </a>
                         <div className='card-body mt-2'>
                             <p className='card-text'>Aroma Worshippers Music Ministry Landing Page</p>
                             <span className='me-2'>HTML</span>
@@ -29,7 +31,9 @@ const Projects = () =>{
 
                 <div className='col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 card-holder rounded p-4'>
                     <div className='card'>
-                        <a href='https://lexicon-two.vercel.app' target='_blank'><img className='card-img-top' alt='roots' src={Lexicon}></img></a>
+                        <a href='https://lexicon-two.vercel.app' target='_blank'>
+                            <img className='card-img-top' alt='lexicon' src={Lexicon}></img>
+                        </a>
                         <div className='card-body mt-2'>
                             <p className='card-text'>Dictionary Web App</p>
                             <span className='me-2'>HTML</span>
@@ -46,7 +50,7 @@ const Projects = () =>{
                 
                     <div className='card'>
                         <a href='https://spefind.vercel.app' target='_blank'>
-                            <img className='card-img-top' alt='roots' src={Spefind}></img>
+                            <img className='card-img-top' alt='spefind' src={Spefind}></img>
                         </a>
                             <div className='card-body mt-2'>
                                 <p className='card-text mt-3'>Online Event Speaker Finder</p>
@@ -62,7 +66,6 @@ const Projects = () =>{
 
             <div className='row justify-content-evenly'>
                 <div className='col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 card-holder rounded p-4'>
-                
                     <div className='card'>
                         <a href='https://songbird-manager.vercel.app/' target='_blank'>
                             <img className='card-img-top' alt='songbird' src={Songbird}></img>

@@ -1,5 +1,6 @@
 .header{
     height: fit-contents;
+    background-color: #242424;
 }
 
 .github-link, .linkedin-link{
@@ -29,7 +30,7 @@ span.underline{
 }
 
 .card{
-    background-color: #151515;
+    background-color: #222;
     color: #fff;
 }
 
@@ -39,4 +40,12 @@ span.underline{
 
 a{
     color: #fff
+}
+.header a{
+    color: #4ee29f;
+    text-decoration: none;
+}
+
+.header a:hover{
+    color: #fff;
 }

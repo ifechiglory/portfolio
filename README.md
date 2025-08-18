@@ -5,11 +5,13 @@ A personal portfolio website built with **React** and **Vite**, designed to show
 ---
 
 ## 🚀 Live Demo
+
 [Visit Portfolio Website](https://portfolio-ifechiglory.vercel.app)
 
 ---
 
 ## 🛠 Tech Stack
+
 - **Frontend Framework**: React
 - **Build Tool**: Vite
 - **Styling**: (Bootstrap)
@@ -18,8 +20,8 @@ A personal portfolio website built with **React** and **Vite**, designed to show
 ---
 
 ## 📂 Project Structure
-```
-root/
+
+```root/
 ├── public/             → Static assets (favicon, manifest, etc.)
 ├── src/
 │   ├── components/     → Reusable React components 
@@ -36,34 +38,44 @@ root/
 ## ⚙️ Getting Started
 
 ### Prerequisites
+
 Make sure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (v14 or later)
 - npm or yarn package manager
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/ifechiglory/portfolio.git
    cd portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
+
    or
+
    ```bash
    yarn install
    ```
 
 3. **Run the development server**
+
    ```bash
    npm run dev
+   
    ```
-   Open http://localhost:5173 (or the port shown in your terminal).
+
+   Open <http://localhost:5173> (or the port shown in your terminal).
 
 4. **Build for production**
+
    ```bash
    npm run build
    ```
@@ -71,6 +83,7 @@ Make sure you have the following installed:
 ---
 
 ## ✨ Features
+
 - Responsive design across desktop, tablet, and mobile
 - Modular and reusable React components
 - Fast builds and hot reload with Vite
@@ -81,10 +94,12 @@ Make sure you have the following installed:
 ---
 
 ## 📬 Contact
-- **Email**: ifechiglory@gmail.com
-- **GitHub**: https://github.com/ifechiglory
+
+- [**Email**](ifechiglory@gmail.com)
+- [**GitHub**](https://github.com/ifechiglory)
 
 ---
 
 ## 📄 License
+
 This project is licensed under the MIT License.
