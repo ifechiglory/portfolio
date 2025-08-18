@@ -25,7 +25,7 @@ const Folio = () => {
             <span className="text-decoration-underline underline fw-bold">
               Ifechukwu Edet, 
             </span>
-             &nbsp; front-end engineer and tech educator.
+             &nbsp; front-end dev and tech educator.
           </h2>
           <p className="fs-6 mt-xl-5 mt-lg-3 mt-md-3">
             I craft sleek, accessible, and engaging web apps using HTML, CSS,
